@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>React App</title>
+    <style>
+      .itsource-tv {
+        width: 618px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      #screen{
+        height: 400px;
+        line-height: 400px;
+        background: black;
+        color: white;
+      }
+      #button{
+        padding: 10px 20px;
+        background: gray;
+        margin: 20px auto;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        border: none;
+        display: block;
+        outline: none;
+      }
+      #button.play{
+        background: green;
+      }
+      #button.stop{
+        background: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="itsource-tv">
+      <div id="screen">源码TV</div>
+      <button id="button">播放</button>
+    </div>
+  </body>
+</html>
